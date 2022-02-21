@@ -141,8 +141,6 @@ GEM
     pg (0.18.4)
     pg (0.18.4-x64-mingw32)
     public_suffix (4.0.6)
-    puma (5.6.2)
-      nio4r (~> 2.0)
     racc (1.6.0)
     rack (2.2.3)
     rack-test (1.1.0)
@@ -190,7 +188,6 @@ GEM
       actionpack (>= 5.2)
       activesupport (>= 5.2)
       sprockets (>= 3.0.0)
-    sqlite3 (1.4.2)
     stimulus-rails (1.0.3)
       railties (>= 6.0.0)
     strscan (3.0.1)
@@ -231,11 +228,9 @@ DEPENDENCIES
   importmap-rails
   jbuilder
   pg (~> 0.18.4)
-  puma (~> 5.0)
   rails (~> 7.0.2, >= 7.0.2.2)
   selenium-webdriver
   sprockets-rails
-  sqlite3 (~> 1.4)
   stimulus-rails
   turbo-rails
   tzinfo-data
